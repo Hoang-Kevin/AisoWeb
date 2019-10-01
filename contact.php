@@ -36,12 +36,18 @@
 
     <!-- Side Menu -->
     <div id="Sidenav0" class="sidenav">
-
-      <a href="https://github.com/Hoang-Kevin/AISO" target="_blank">GitHub</a>
-      <a href="https://github.com/rodriguetac" target="_blank">devRod</a>
-      <a href="https://github.com/Hoang-Kevin" target="_blank">devSazu</a>
-      <a href="#">Contact</a>
-
+      <div class="SideMenuChoices">
+        <a href="https://github.com/Hoang-Kevin" target="_blank">GitHub</a><br/>
+      </div>
+      <div class="SideMenuChoices">
+        <a href="https://github.com/rodriguetac" target="_blank">devRod</a><br/>
+      </div>
+      <div class="SideMenuChoices">
+        <a href="https://github.com/Hoang-Kevin" target="_blank">devSazu</a><br/>
+      </div>
+      <div class="SideMenuChoices">
+        <a href="contact.php">Contact</a><br/>
+      </div>
     </div>
 
     <main>
@@ -60,9 +66,9 @@
         <?php include 'mail.php'; ?>
       </div>
       <div id="contact_social">
-        <div class="element1"><a href="https://www.facebook.com" target="_blank"><figure><img src="assets/f_logo.png"><figcaption>Facebook</figcaption></figure></a></div>
-        <div class="element2"><a href="https://twitter.com" target="_blank"><figure><img src="assets/logo_t.png"><figcaption>Twitter</figcaption></figure></a></div>
-        <div class="element3"><a href="https://www.instagram.com" target="_blank"><figure><img src="assets/logo_i.png"><figcaption>Instagram</figcaption></figure></a></div>
+        <div class="element1"><a href="https://www.facebook.com" target="_blank"><figure><img src="assets/f_logo.png" title="Logo de Facebook" class="facebook"><figcaption>Facebook</figcaption></figure></a></div>
+        <div class="element2"><a href="https://twitter.com" target="_blank"><figure><img src="assets/logo_t.png" title="Logo de Twitter" class="twitter"><figcaption>Twitter</figcaption></figure></a></div>
+        <div class="element3"><a href="https://www.instagram.com" target="_blank"><figure><img src="assets/logo_i.png" title="Logo d'Instagram" class="instagram"><figcaption>Instagram</figcaption></figure></a></div>
       </div>
     </main>   
   </body>

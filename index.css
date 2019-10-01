@@ -178,7 +178,7 @@ footer{
     text-align: center;
 }
 #contact_social{
-  display: flex;
+    display: flex;
   justify-content: space-around;
 }
 #contact_social a{
@@ -188,3 +188,13 @@ footer{
 #contact_social a:hover{
   animation : title 1.2s infinite alternate;
 }
+#contact_social .element1 .facebook{
+    width: 80%;
+}
+#contact_social .element2 .twitter{
+    width: 80%;
+}
+#contact_social .element3 .instagram{
+    width: 80%;
+}
+
