@@ -51,15 +51,15 @@ h1 a
 }
 
 @keyframes title {
-    0% { opacity: 100%;}
-    100% { opacity: 50%;}
+    0% { color: white;}
+    100% { color: rgb(121, 118, 118);}
 }
 
 h1 a:hover
 {
-    color :white;
+    color: white;
     text-decoration: none;
-    animation: title 1.2s infinite alternate
+    animation: title 1.2s infinite alternate;
 }
 
 h1{
@@ -90,10 +90,8 @@ footer{
 
 .leftfloat
 {
-    display : inline;
-    width: 20%;
     margin-right: 5%;
-    float : left;
+    float: left;
 }
 
 .Longtext
@@ -102,6 +100,7 @@ footer{
     margin-left: 18%;
     margin-right: 18%;
     font-family: 'Poppins', sans-serif;
+    text-align: justify;
 }
 
 
@@ -164,5 +163,11 @@ footer{
   .main {
     margin-left: 160px; /* Same as the width of the sidebar */
     padding: 0px 10px;
+  }
+  #contact-mail{
+      text-align: center;
+  }
+  #contact_social{
+
   }
   
