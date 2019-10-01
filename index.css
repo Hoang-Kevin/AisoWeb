@@ -149,13 +149,13 @@ footer{
       text-align: center;
   }
 
-  .SideMenuChoices:hover
+  .SideMenuChoices a:hover
   {
       background-color : #FFFAFA;
   }
   /* The navigation menu links */
   .sidenav a {
-    padding: 0 0 0 40px;
+    padding: 0 0 0 0;
     text-decoration: none;
     font-size: 200%;
     font-family: 'Poppins', sans-serif;
@@ -166,7 +166,7 @@ footer{
   
   /* When you mouse over the navigation links, change their color */
   .sidenav a:hover {
-    color: red;
+    color: black;
   }
   
   /* Style page content */
