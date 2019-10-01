@@ -143,6 +143,16 @@ footer{
     margin: 5px 0px;
   }
   
+  
+  .SideMenuChoices
+  {
+      text-align: center;
+  }
+
+  .SideMenuChoices:hover
+  {
+      background-color : #FFFAFA;
+  }
   /* The navigation menu links */
   .sidenav a {
     padding: 0 0 0 40px;
@@ -150,7 +160,7 @@ footer{
     font-size: 200%;
     font-family: 'Poppins', sans-serif;
     color: #fffafa;
-    display: inline;
+    display: block;
 
   }
   
