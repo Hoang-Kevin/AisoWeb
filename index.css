@@ -174,10 +174,17 @@ footer{
     margin-left: 160px; /* Same as the width of the sidebar */
     padding: 0px 10px;
   }
-  #contact-mail{
-      text-align: center;
-  }
-  #contact_social{
-
-  }
-  
+  #contact_mail{
+    text-align: center;
+}
+#contact_social{
+  display: flex;
+  justify-content: space-around;
+}
+#contact_social a{
+    text-align: center;
+    color : white;
+}
+#contact_social a:hover{
+  animation : title 1.2s infinite alternate;
+}

@@ -7,9 +7,8 @@
             <p><b>Nom : </b>' . $_POST['nom'] . '<br>
             <b>Email : </b>' . $_POST['email'] . '<br>
             <b>Message : </b>' . $_POST['message'] . '</p>';
-            $retour = mail('rodriguetac@gmail.com', 'Envoi depuis page Contact', $message, $entete);
+            $retour = mail('rodrigue.taccoen@viacesi.fr', 'Envoi depuis page Contact', $message, $entete);
             if($retour) {
-                mail('rodriguetac@gmail.com', 'Envoi depuis page Contact', $message, $entete);
                 echo '<p>Votre message a bien été envoyé.</p>';
             }
         }
