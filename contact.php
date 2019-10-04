@@ -70,6 +70,6 @@
         <div class="element2"><a href="https://twitter.com" target="_blank"><figure><img src="assets/logo_t.png" title="Logo de Twitter" class="twitter"><figcaption>Twitter</figcaption></figure></a></div>
         <div class="element3"><a href="https://www.instagram.com" target="_blank"><figure><img src="assets/logo_i.png" title="Logo d'Instagram" class="instagram"><figcaption>Instagram</figcaption></figure></a></div>
       </div>
-    </main>   
+    </main>
   </body>
 </html>
