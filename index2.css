@@ -100,11 +100,11 @@ footer a:hover{
 
 .leftfloat
 {
-    margin-right: 5%;
+    margin-right: 2%;
     float: left;
 }
 
-.Longtext
+#reallylong
 {
     padding: 5% 2%;
     margin-left: 18%;
@@ -240,6 +240,7 @@ footer a:hover{
     display: block; /* Make it into a block element to fill the whole list */
     text-align: center;
     font-family: 'Poppins', sans-serif;
+
   }
   
   #myUL li a:hover:not(.header) {
