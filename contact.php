@@ -8,7 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index2.css">
   </head>
 
 
@@ -71,5 +71,10 @@
         <div class="element3"><a href="https://www.instagram.com" target="_blank"><figure><img src="assets/logo_i.png" title="Logo d'Instagram" class="instagram"><figcaption>Instagram</figcaption></figure></a></div>
       </div>
     </main>
+    <footer>
+      <a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/F31228" target ="_blank" class="Mentions">
+          Mentions legales
+      </a>
+    </footer>
   </body>
 </html>
