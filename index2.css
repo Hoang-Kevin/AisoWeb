@@ -71,8 +71,7 @@ main h2{
     text-align:center;
 }
 body{
-    /*background-color: #696969;*/
-    background-color: white;
+    background-color: #696969;
 }
 .firstimg{
    left: 0;
@@ -207,7 +206,4 @@ footer a:hover{
 }
 #contact_social .element3 .instagram{
     width: 80%;
-}
-#section1{
-    color: white;
 }
