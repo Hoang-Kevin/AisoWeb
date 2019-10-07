@@ -71,7 +71,8 @@ main h2{
     text-align:center;
 }
 body{
-    background-color: #696969;
+    /*background-color: #696969;*/
+    background-color: white;
 }
 .firstimg{
    left: 0;
@@ -189,7 +190,7 @@ footer a:hover{
 }
 #contact_social{
     display: flex;
-  justify-content: space-around;
+    justify-content: space-around;
 }
 #contact_social a{
     text-align: center;
@@ -207,13 +208,6 @@ footer a:hover{
 #contact_social .element3 .instagram{
     width: 80%;
 }
-label {
-    display: block;
-    font: 1rem 'Fira Sans', sans-serif;
+#section1{
+    color: white;
 }
-
-input,
-label {
-    margin: .4rem 0;
-}
-
