@@ -1,0 +1,259 @@
+
+/* --------------------------------------------------------- */
+/* Code CSS */
+
+div#slider
+{
+width : 100%;
+max-width: 1080px;
+overflow: hidden;
+margin: 0 auto; 
+}
+
+div#slider figure
+{
+    position: relative; 
+    width: 500%;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+    left: 0;
+    text-align: left;
+    animation: 20s slidy infinite alternate;
+}
+
+div#slider figure img
+{
+    width: 20%;
+    height: auto;
+    float: left;
+}
+
+@keyframes slidy {
+    0% { left: 0%; }
+    15% { left: 0%; }
+    20% { left: -100%; }
+    35% { left: -100%; }
+    40% { left: -200%; }
+    55% { left: -200%; }
+    60% { left: -300%; }
+    75% { left: -300%; }
+    80% { left: -400%; }
+    100% { left: -400%; }
+}
+
+h1 a
+{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+
+@keyframes title {
+    0% { color: white;}
+    100% { color: rgb(121, 118, 118);}
+}
+
+h1 a:hover
+{
+    color: white;
+    text-decoration: none;
+    animation: title 1.2s infinite alternate;
+}
+
+h1{
+    text-align: center;
+}
+header{
+    background-color: black;
+}
+main h2{
+    text-align:center;
+}
+body{
+    background-color: #696969;
+}
+.firstimg{
+   left: 0;
+}
+figure{
+    float: left;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+}
+footer a:hover{
+    color: white;
+}
+
+.Mentions
+{
+    color: #FFFAFA;
+    text-decoration: none;
+}
+
+.leftfloat
+{
+    margin-right: 2%;
+    float: left;
+}
+
+#reallylong
+{
+    padding: 5% 2%;
+    margin-left: 18%;
+    margin-right: 18%;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+
+
+/* --------------------------------------------------------- */
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 100%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 2; /* Stay on top */
+    top: 72px; /* Stay at the top */
+    left: -100%;
+    background-color: black; /* Black */
+    overflow-x: visible ;/* Disable horizontal scroll */
+    transition: all 300ms linear;
+  }
+
+  .sidenav.active
+  {
+      left: 0px;
+
+  }
+
+  .togglebutton
+  {
+      position: absolute;
+      left: 20px;
+      top: 18px;
+      transition: all 300ms linear;
+  }
+
+
+  #toggle span
+  {
+    display: block;
+    width : 30px;
+    height : 5px;
+    background: #FFFAFA;
+    margin: 5px 0px;
+  }
+  
+  
+  .SideMenuChoices
+  {
+      text-align: center;
+  }
+
+  .SideMenuChoices a:hover
+  {
+      background-color : #FFFAFA;
+  }
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 0 0 0 0;
+    text-decoration: none;
+    font-size: 200%;
+    font-family: 'Poppins', sans-serif;
+    color: #fffafa;
+    display: block;
+
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: black;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+  #contact_mail{
+    text-align: center;
+}
+#contact_social{
+    display: flex;
+    justify-content: space-around;
+}
+#contact_social a{
+    text-align: center;
+    color : white;
+}
+#contact_social a:hover{
+  animation : title 1.2s infinite alternate;
+}
+#contact_social .element1 .facebook{
+    width: 80%;
+}
+#contact_social .element2 .twitter{
+    width: 80%;
+}
+#contact_social .element3 .instagram{
+    width: 80%;
+}
+
+/* Search Bar */
+#myInput {
+    background-image: url('assets/searchicon.png'); /* Add a search icon to input */
+    background-position: 3px 8px; /* Position the search icon */
+    background-repeat: no-repeat; /* Do not repeat the icon image */
+    background-size: 2em;
+    width: 100%; /* Full-width */
+    font-size: 16px; /* Increase font-size */
+    padding: 12px 20px 12px 40px; /* Add some padding */
+    border: 1px solid #ddd; /* Add a grey border */
+    margin-bottom: 12px; /* Add some space below the input */
+    background-color: #FFFAFA;
+  }
+  
+  #myUL {
+    /* Remove default list styling */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+  }
+  
+  #myUL li a {
+    margin-top: -1px; /* Prevent double borders */
+    background-color: black; /* Grey background color */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove default text underline */
+    font-size: 200%; /* Increase the font-size */
+    color: #FFFAFA; /* Add a black text color */
+    display: block; /* Make it into a block element to fill the whole list */
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+  }
+  
+  #myUL li a:hover:not(.header) {
+    background-color: #eee; /* Add a hover effect to all links, except for headers */
+  }
+
+
+  .carousel {             
+    height: 50%;
+    width: 50%;
+    left: 25%;
+}
+    .carousel img {
+        height: 500px;
+        width: 900px;
+    }
