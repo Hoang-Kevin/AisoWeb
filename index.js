@@ -96,3 +96,10 @@ function myFunction() {
       source: availableTags
     });
   } );
+
+
+$(window).scroll(function() {
+  $( "#reallylong").css("color", "white")
+  $( "#slider").fadeOut(3000);
+  $( "#carouselExampleIndicators").fadeIn(6000);
+})
