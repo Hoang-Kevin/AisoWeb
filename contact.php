@@ -1,4 +1,4 @@
-<!doctype php>
+<!doctype html>
 <html lang="fr">
   <head>
     <title>AISO</title>
@@ -53,7 +53,7 @@
     <main>
       <h2>Contact</h2><br/>
       <div id="contact_mail">  
-        <h3>Envoyer un mail</h3>
+        <h3>Envoyer nous un mail</h3>
         <form method="post">
             <label>Nom</label><br/>
             <input type="text" name="nom" required><br/>
