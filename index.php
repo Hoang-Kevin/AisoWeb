@@ -51,7 +51,7 @@
         <input type="password" name="password" placeholder="Mot de Passe"/>
         <input type="submit" value="Valider"/>
       </form>
-      <?php include 'connexion.php';?>
+      <?php include 'connexion2.php';?>
     </aside>
     <!-- Side Menu -->
     <div id="Sidenav0" class="sidenav">
@@ -74,6 +74,9 @@
       </div>
       <div class="SideMenuChoices">
         <a href="contact.php">Contact</a><br/>
+      </div>
+      <div class="SideMenuChoices">
+        <a href="produits.php">Produits</a><br/>
       </div>
     </div>
 
