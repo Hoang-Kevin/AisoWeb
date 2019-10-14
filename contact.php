@@ -23,7 +23,7 @@
 
     <!-- Header -->
     <header>
-        <h1 class="Titre"><a href="index.html">AISO</a></h1>
+        <h1 class="Titre"><a href="index.php">AISO</a></h1>
         <div id="toggle" class= "togglebutton" onClick="Opensidenav()">
             <span></span>
             <span></span>

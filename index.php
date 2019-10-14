@@ -33,7 +33,7 @@
 
     <!-- Header -->
     <header>
-        <h1 class="Titre"><a href="index.html">AISO</a></h1>
+        <h1 class="Titre"><a href="index.php">AISO</a></h1>
         <div id="toggle" class= "togglebutton" onClick="Opensidenav()">
             <span></span>
             <span></span>
@@ -45,7 +45,14 @@
     </header>
 
 
-
+    <aside>
+      <form method="post">
+        <input type="text" name="pseudo" placeholder="Nom d'utilisateur"/>
+        <input type="password" name="password" placeholder="Mot de Passe"/>
+        <input type="submit" value="Valider"/>
+      </form>
+      <?php include 'connexion.php';?>
+    </aside>
     <!-- Side Menu -->
     <div id="Sidenav0" class="sidenav">
         <div id="Searchbar">
@@ -57,16 +64,16 @@
             </ul>
           </div>
       <div class="SideMenuChoices">
-        <a href="https://github.com/Hoang-Kevin" target="_blank">GitHub</a></br>
+        <a href="https://github.com/Hoang-Kevin" target="_blank">GitHub</a><br/>
       </div>
       <div class="SideMenuChoices">
-        <a href="https://github.com/rodriguetac" target="_blank">devRod</a></br>
+        <a href="https://github.com/rodriguetac" target="_blank">devRod</a><br/>
       </div>
       <div class="SideMenuChoices">
-        <a href="https://github.com/Hoang-Kevin" target="_blank">devSazu</a></br>
+        <a href="https://github.com/Hoang-Kevin" target="_blank">devSazu</a><br/>
       </div>
       <div class="SideMenuChoices">
-        <a href="contact.php">Contact</a></br>
+        <a href="contact.php">Contact</a><br/>
       </div>
     </div>
 
