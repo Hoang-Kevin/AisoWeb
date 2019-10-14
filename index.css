@@ -71,6 +71,9 @@ header{
 main h2{
     text-align:center;
 }
+main h3{
+    text-align:center;
+}
 body{
     background-color: #696969;
 }
@@ -269,4 +272,9 @@ footer a:hover{
     aside p{
         text-align: center;
         color: white;
+    }
+
+    #connectBDD input{
+        display: block;
+        margin: 0 auto;
     }

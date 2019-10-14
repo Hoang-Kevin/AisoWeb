@@ -8,7 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css?2">
   </head>
 
 
@@ -51,13 +51,19 @@
     </div>
 
     <main>
+    <div id="connectBDD">
       <h2>Produits</h2><br/>
+      <h3>Connexion à la base de données</h3>
       <form method="post">
-        <input type="text" name="username"/>
-        <input type="password" name="password"/>
+        <input type="text" name="username" placeholder="Nom d'utilisateur"/>
+        <input type="password" name="password" placeholder="Mot de Passe"/>
         <input type="submit" value="Valider"/>
       </form>
-      <?php include 'connexxion.php' ?>
+      <?php include 'connexion.php' ?>
+      </div>
+      <div id="BDD">
+        <input type="submit" value="Trier par prix"/>
+    </div>
     </main>
     <footer>
       <a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/F31228" target ="_blank" class="Mentions">
