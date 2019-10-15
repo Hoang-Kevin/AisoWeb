@@ -267,3 +267,21 @@ footer a:hover{
 #BDD #param{
     display: none;
 }
+
+.dogs
+{
+    width: 15em;
+    height: 15em;
+    background-image: url("assets/Piwi.png");
+    margin: 5 5 5 5;
+    display: inline-block;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+
+.txtindogs {
+    position: relative;
+    background-color: grey;
+    opacity: 0.9;
+    
+}

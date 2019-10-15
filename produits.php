@@ -56,11 +56,24 @@
       <?php include 'connexion.php' ?>
       </div>
       <div id="BDD">
-      <form method="post">
-          <input id="param" type="text" value="1" name="param"/> 
-          <input type="submit" value="Trier par prix"/>
+      <form method="post" action="" name="PostName" id="IdName">
+          <SELECT name="param" size="1" id="sortchoice">
+              <OPTION value="1">AISO présente
+              <OPTION value="1">Prix : Par ordre croissant
+              <OPTION value="2">Prix : Par ordre décroissant
+          </SELECT>
         <?php include 'trieprix.php' ?>
         </form>
+        
+        <script type="text/javascript">
+        jQuery(function() {
+          jQuery('#sortchoice').change(function() {
+              this.form.submit();
+          });
+        });
+        </script>
+
+        
     </div>
     </main>
     <footer>

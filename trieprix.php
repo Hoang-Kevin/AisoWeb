@@ -2,6 +2,7 @@
 $user="root";
 $pass="";
 $param=$_POST['param'];
+echo $param;  
 if(isset($user) && isset($pass) && isset($param)){
     try {
         $dbh = new PDO('mysql:host=localhost;dbname=AISO', $user, $pass);
@@ -18,8 +19,9 @@ if(isset($user) && isset($pass) && isset($param)){
                 $image[] = '<img src="assets/croix.png"  title="Hors stock" alt="symbole croix">';
             }
         }
+    
         for( $ligne=0; $ligne<count($id); $ligne++){
-            echo '<p><center>' . $id[$ligne] . $nom[$ligne] . $prix[$ligne] . $image[$ligne] . '</center></p>';
+            echo '<div class=dogs><span><center class=txtindogs>' . $id[$ligne] . $nom[$ligne] . $prix[$ligne] . $image[$ligne] . '</center class=txtindogs><span></div>';
         }
         $dbh = null;
     } catch (PDOException $e) {
