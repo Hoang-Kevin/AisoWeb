@@ -264,3 +264,6 @@ footer a:hover{
         height: 500px;
         width: 900px;
     }
+#BDD #param{
+    display: none;
+}

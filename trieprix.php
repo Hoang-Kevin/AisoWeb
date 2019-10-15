@@ -1,10 +1,11 @@
 <?php
 $user="root";
 $pass="";
-if(isset($user) && isset($pass) && !(isset($_POST['param']))){
+$param=$_POST['param'];
+if(isset($user) && isset($pass) && isset($param)){
     try {
         $dbh = new PDO('mysql:host=localhost;dbname=AISO', $user, $pass);
-        foreach($dbh->query('SELECT * FROM produits') as $row) {
+        foreach($dbh->query('CALL trierprix(' . $param . ')') as $row) {
             if($row['solde'] == 1){
                 $id[] = $row['id'] . "\t";
                 $nom[] = $row['nom'] . "\t";
@@ -24,10 +25,5 @@ if(isset($user) && isset($pass) && !(isset($_POST['param']))){
     } catch (PDOException $e) {
         echo '<p><center>Le nom d\'utilisateur ou le mot de passe sont incorrectes</center></p>';
     }
-}else if(isset($_POST['param'])){
-    $id=array();
-    $nom=array();
-    $prix=array();
-    $image=array();
 }
 ?>

@@ -8,7 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="index.css?2">
+    <link rel="stylesheet" href="index.css?3">
   </head>
 
 
@@ -56,7 +56,11 @@
       <?php include 'connexion.php' ?>
       </div>
       <div id="BDD">
-        <input type="submit" value="Trier par prix"/>
+      <form method="post">
+          <input id="param" type="text" value="1" name="param"/> 
+          <input type="submit" value="Trier par prix"/>
+        <?php include 'trieprix.php' ?>
+        </form>
     </div>
     </main>
     <footer>
