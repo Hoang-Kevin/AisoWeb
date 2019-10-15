@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css?12">
+    <link rel="stylesheet" href="index.css?9">
     <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -33,15 +33,13 @@
 
     <!-- Header -->
     <header>
-        <h1 class="Titre"><a href="index.php">AISO</a></h1>
         <div id="toggle" class= "togglebutton" onClick="Opensidenav()">
             <span></span>
             <span></span>
             <span></span>
         </div>
-        <nav>
-        
-        </nav>
+        <h1 class="Titre"><a href="index.php">AISO</a></h1>
+        <a id="connexion" href="signinweb.php">Connexion</a>
     </header>
 
     <!-- Side Menu -->
