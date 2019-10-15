@@ -264,17 +264,3 @@ footer a:hover{
         height: 500px;
         width: 900px;
     }
-
-    aside{
-        position: relative;
-        float: right;
-    }
-    aside p{
-        text-align: center;
-        color: white;
-    }
-
-    #connectBDD input{
-        display: block;
-        margin: 0 auto;
-    }
