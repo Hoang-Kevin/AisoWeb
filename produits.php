@@ -55,8 +55,8 @@
       <h2>Produits</h2><br/>
       <h3>Connexion à la base de données</h3>
       <form method="post">
-        <input type="text" name="username" placeholder="Nom d'utilisateur"/>
-        <input type="password" name="password" placeholder="Mot de Passe"/>
+        <input type="text" name="username" placeholder="Nom d'utilisateur" required/>
+        <input type="password" name="password" placeholder="Mot de Passe" required/>
         <input type="submit" value="Valider"/>
       </form>
       <?php include 'connexion.php' ?>

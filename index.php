@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css?12">
     <script
     src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -44,15 +44,6 @@
         </nav>
     </header>
 
-
-    <aside>
-      <form method="post">
-        <input type="text" name="pseudo" placeholder="Nom d'utilisateur"/>
-        <input type="password" name="password" placeholder="Mot de Passe"/>
-        <input type="submit" value="Valider"/>
-      </form>
-      <?php include 'connexion2.php';?>
-    </aside>
     <!-- Side Menu -->
     <div id="Sidenav0" class="sidenav">
         <div id="Searchbar">

@@ -7,15 +7,14 @@ if(isset($user) || isset($pass)){
         $dbh = new PDO('mysql:host=localhost;dbname=AISO', $user, $pass);
         foreach($dbh->query('CALL trierprix(' . $param . ')') as $row) {
             if($row['solde'] == 1){
-                echo '<p><center>' . $row['id'] . "\t" . $row['nom'] . "\t" . $row['prix'] . "\t" . '<img src="assets/valide.jpg" titre="disponible" alt="symbole valide">';
+                echo '<p><center>' . $row['id'] . "\t" . $row['nom'] . "\t" . $row['prix'] . "\t" . '<img src="assets/valide.jpg" title="En stock" alt="symbole valide">';
             }else{
-                echo '<p><center>' . $row['id'] . "\t" . $row['nom'] . "\t" . $row['prix'] . "\t" . '<img src="assets/croix.png" titre="non disponible" alt="symbole croix">';
+                echo '<p><center>' . $row['id'] . "\t" . $row['nom'] . "\t" . $row['prix'] . "\t" . '<img src="assets/croix.png" title="Pas en stock" alt="symbole croix">';
             }
         }
         $dbh = null;
     } catch (PDOException $e) {
-        echo '<p><center>Le nomd\'utilisateur ou le mot de passe doivent être incorrectes</center></p>';
-        die();
+        echo '<p><center>Le nom d\'utilisateur ou le mot de passe sont incorrectes</center></p>';
     }
 }
 ?>
