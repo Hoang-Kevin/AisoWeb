@@ -39,7 +39,7 @@
             <span></span>
         </div>
         <h1 class="Titre"><a href="index.php">AISO</a></h1>
-        <a id="connexion" href="signinweb.php">Connexion</a>
+        <a id="connexion" href="signinweb.php">Inscription</a>
     </header>
 
     <!-- Side Menu -->

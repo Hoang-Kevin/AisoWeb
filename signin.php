@@ -4,11 +4,13 @@ $password=$_POST['password'];
 if(isset($user) && isset($password)){
     try{
         $db = new PDO('mysql:host=localhost;dbname=WSProsit5', 'root', '');
-        foreach($db->query('CALL lectureDonnee();') as $row){
-            if($row['pseudo'] == $user){
+        $reponse = $db->query('SELECT * FROM utilisateurs');
+        while($donnee = $reponse->fetch()){
+            if($donnee['pseudo'] == $user){
                 $bool = true;
-            }
+            } 
         }
+        echo $bool;
         if($bool == true){
             echo '<p><center>Le nom d\'utilisateur existe déjà</center></p>';
         }else{
