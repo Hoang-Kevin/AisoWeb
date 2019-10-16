@@ -23,7 +23,7 @@
 
     <!-- Header -->
     <header>
-        <h1 class="Titre"><a href="index.php">AISO</a></h1>
+        <h1 class="Titre"><a href="index.php">AISO2</a></h1>
         <div id="toggle" class= "togglebutton" onClick="Opensidenav()">
             <span></span>
             <span></span>
@@ -59,8 +59,8 @@
             <input type="password" name="password" required><br/>
             <input type="submit">
         </form>
-        <a id="connexion" href="signupweb.php">Connexion</a>
-        <?php include 'signin.php'; ?>
+        <a id="connexion" href="signinweb.php">Inscription</a>
+        <?php include 'signup.php'; ?>
     </main>
     <footer>
       <a href="https://www.service-public.fr/professionnels-entreprises/vosdroits/F31228" target ="_blank" class="Mentions">
