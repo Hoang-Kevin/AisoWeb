@@ -103,3 +103,7 @@ $(window).scroll(function() {
   $( "#slider").fadeOut(3000);
   $( "#carouselExampleIndicators").fadeIn(6000);
 })
+
+function admin(){
+  window.location.href="produits.php"
+}
